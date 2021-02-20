@@ -3,6 +3,8 @@
     margin: 0;
 }
 .main_header-text{
+    position: relative;
+    float: top;
     text-align: center;
     font-size: 32px;
     font-weight: bold;

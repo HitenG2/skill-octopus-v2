@@ -1,0 +1,119 @@
+.main{
+    width: 100%;
+    margin: 0;
+}
+.main_header-text{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main__skill-octopus{
+    height: 700px;
+    width: 600px;
+    margin: 2% 23%;
+    border-radius: 50% 0 0 50%;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%,
+    rgba(177,0,187,1) 39%, rgba(255,0,254,1) 68%, rgba(118,0,144,1) 100%);
+}
+.main__skill-octopus__legs-header{
+    //background: salmon;
+    float: right;
+    height: 100%;
+    width: 30px;
+    display: flex;
+    margin-right: -30px;
+    flex-direction: column;
+}
+.main__skill-octopus__legs-header-max{
+    //background: blue;
+    background: linear-gradient(90deg, rgba(118,0,144,1) 0%, rgba(255,0,254,1) 39%,
+    rgba(177,0,187,1) 68%, rgba(255,0,0,1) 100%);
+    line-height: 30px;
+    float: left;
+    display: inline-block;
+    width: 410px;
+    opacity: .7;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: "Agency FB", serif;
+    font-weight: bold;
+    position: relative;
+}
+.main__skill-octopus__legs-header-max__future{
+    background: green;
+    width: 410px;
+    height: 30px;
+    opacity: 1;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: right;
+
+}
+.main__skill-octopus__legs-header-max__current{
+    //background: rgb(118,0,144);
+    background: linear-gradient(90deg, rgba(76,0,93,1) 0%, rgba(255,0,254,1) 61%, rgba(177,0,187,1) 100%);
+    width: 410px;
+    height: 30px;
+    opacity: 1;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+}
+.main__skill-octopus__legs-header-max__hidden-text{
+    display: none;
+}
+.main__skill-octopus__spells{
+    //background: white;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    text-align: left;
+    margin-right: 10px;
+}
+.main__skill-octopus__legs-header-max_spell-name{
+    position: absolute;
+    text-align: left;
+    margin-left: -250px;
+    margin-top: 0px;
+}
+.main__skill-octopus__eye{
+    width: 70px;
+    height: 45px;
+    background: white;
+    position: relative;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transform: rotate(110deg);
+    top: 80px;
+    left: 110px;
+}
+.main__skill-octopus__eye:before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 95px;
+    background: white;
+    top: -110px;
+    left: 350px;
+    transform: rotate(-120deg);
+    clip-path: polygon(88% 76%, 9% 87%, 100% 45%);
+    border-radius: 50%;
+}
+.main__skill-octopus__eye:after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    right: 10px;
+    bottom: 1px;
+    border-radius: 100%;
+    transform: rotate(-74deg);
+}
+
+
+

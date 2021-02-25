@@ -47,8 +47,7 @@
     width: 600px;
     margin: 2% 23%;
     border-radius: 50% 0 0 50%;
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%,
-    rgba(177,0,187,1) 39%, rgba(255,0,254,1) 68%, rgba(118,0,144,1) 100%);
+    background: linear-gradient(270deg, rgba(102,51,204,1) 0%, rgba(159,65,158,1) 100%);
 }
 .octopus__legs{
     float: right;
@@ -64,7 +63,6 @@
     line-height: 30px;
     display: inline-block;
     width: 410px;
-    opacity: .7;
     margin-bottom: 20px;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
@@ -73,20 +71,15 @@
     position: relative;
 }
 .octopus__future{
-    background: green;
+    background: rgb(0, 107, 0);
     width: 410px;
     height: 30px;
-    opacity: 1;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     text-align: right;
-
 }
 .octopus__current{
-    background: linear-gradient(90deg, rgba(76,0,93,1) 0%, rgba(255,0,254,1) 61%, rgba(177,0,187,1) 100%);
-    width: 410px;
-    height: 30px;
-    opacity: 1;
+    background: linear-gradient(90deg, rgba(102,51,204,1) 0%, rgba(159,65,158,1) 100%);
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     position: absolute;
@@ -94,18 +87,9 @@
 .octopus_hidden-text{
     display: none;
 }
-.octopus__spells{
-    width: 230px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    float: right;
-    text-align: left;
-    margin-right: 10px;
-}
 .octopus__spell-name{
     position: absolute;
-    text-align: left;
-    margin-left: -250px;
+    text-align: right;
+    margin-left: -190px;
     margin-top: 0px;
 }

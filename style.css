@@ -128,7 +128,7 @@ section {
   display: none;
 }
 .octopus__spell-name {
-  width: 195px;
+  width: 45%;
   line-height: 30px;
   text-align: right;
   position: absolute;
